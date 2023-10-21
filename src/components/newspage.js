@@ -7,16 +7,16 @@ const NewsPage = () => {
 
   useEffect(() => {
     // Fetch news data from the server
-    const fetchNews = async () => {
-      try {
-        const response = await axios.get('/news'); // Adjust the API endpoint
-        setNews(response.data);
-      } catch (error) {
-        console.error('Error fetching news:', error);
-      }
-    };
+    // const fetchNews = async () => {
+    //   try {
+    //     const response = await axios.get('/news'); // Adjust the API endpoint
+    //     setNews(response.data);
+    //   } catch (error) {
+    //     console.error('Error fetching news:', error);
+    //   }
+    // };
 
-    fetchNews();
+    // fetchNews();
   }, []);
 
   const educationalProgramsLink = 'https://www.toastmasters.org/education'; // Replace with the actual link
@@ -58,7 +58,7 @@ const NewsPage = () => {
         </div>
       </div>
 
-      <div className="news-container">
+      {/* <div className="news-container">
         {news.map((item) => (
           <div key={item._id} className="news-item">
             <h3 className="news-item-title">{item.title}</h3>
@@ -73,7 +73,7 @@ const NewsPage = () => {
             )}
           </div>
         ))}
-      </div>
+      </div> */}
 
       {/* Affordable Membership Block */}
       <div className="membership-block">
