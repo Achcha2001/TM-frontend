@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import bcrypt from 'bcryptjs';
 import './signup.css';
+import baseURL from './baseurl';
 
 function SignupPage() {
   const navigate = useNavigate();
