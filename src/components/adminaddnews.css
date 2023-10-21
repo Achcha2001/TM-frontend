@@ -1,0 +1,43 @@
+/* AdminAddNews.css */
+
+.admin-add-news {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .admin-add-news h2 {
+    color: #333;
+  }
+  
+  .admin-add-news form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-add-news label {
+    margin-bottom: 10px;
+  }
+  
+  .admin-add-news textarea,
+  .admin-add-news input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .admin-add-news button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-add-news button:hover {
+    background-color: #45a049;
+  }
+  

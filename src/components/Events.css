@@ -1,0 +1,118 @@
+/* src/components/Events.css */
+
+
+  
+  .events-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .events-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .event-item {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background:linear-gradient(rgb(170, 170, 170),rgb(194, 194, 194),rgb(193, 193, 193),rgb(84, 84, 84));
+    display: flex;
+    align-items: center;
+  }
+  
+  .event-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .event-details {
+    flex: 1;
+  }
+  
+  .event-title {
+    font-size: 18px;
+    color: #4e0909;
+  }
+  
+  .event-description {
+    margin-top: 10px;
+    color: #000000;
+  }
+  
+  .event-date {
+    margin-top: 10px;
+    color: #480404;
+  }
+/* Add these styles to your existing Events.css file or create a new one */
+
+.posts-container {
+    margin-top: 20px;
+    background:linear-gradient(rgb(243, 232, 232),rgb(232, 227, 227),rgb(185, 185, 185),gray);
+    border-radius: 5px;
+   
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+  
+  .posts-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-container {
+    margin-top: 20px;
+  }
+  
+  .gallery-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .gallery-image {
+    width: 28vw; /* Adjust the width as needed */
+    height: auto;
+    padding-left: 20px;
+    border-radius: 8px;
+  }
+    /* Add these styles to your existing Events.css file or create a new one */
+
+.intro-image {
+    position: relative;
+    text-align: center;
+  }
+  
+  .intro-image img {
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+  
+  .intro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .intro-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,45 @@
+.admin-add-events {
+  max-width: 600px;
+  margin: 0 auto;
+  
+}
+
+.admin-add-events-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.admin-add-events-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-add-events-form div {
+  margin-bottom: 16px;
+}
+
+.admin-add-events-form label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.admin-add-events-form input,
+.admin-add-events-form textarea {
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.admin-add-events-form button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-add-events-form button:hover {
+  background-color: #0056b3;
+}

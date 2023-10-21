@@ -1,0 +1,78 @@
+/* adminnavbar.css */
+
+.admin-navbar {
+    background: linear-gradient(rgb(107, 1, 1), rgb(155, 33, 33), rgb(126, 35, 35));
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .admin-navbar-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  .admin-navbar-item {
+    margin-right: 10px;
+    padding-left: 30px;
+  }
+  
+  .admin-navbar-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .admin-navbar-link:hover {
+    color: #666;
+    text-decoration: underline white;
+  }
+  
+  .admin-navbar-header {
+    display: block;
+    align-items: center;
+  }
+  
+  .admin-navbar-logo-text {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .admin-navbar-login {
+    margin-left: 10px;
+  }
+  
+  .admin-navbar-login-button {
+    background-color: #fff;
+    color: maroon;
+    font-size: 15px;
+    border: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .admin-navbar-login-button:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .admin-navbar-logo-text {
+    margin-left: -130px;
+  }
+  .admin-logout-button {
+    background-color: #fff;
+    color: maroon;
+    font-size: 15px;
+    border: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    margin-right: 5px;
+  }
+  
+  .admin-logout-button:hover {
+    background-color: #f2f2f2;
+  }
+  

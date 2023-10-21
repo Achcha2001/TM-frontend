@@ -1,0 +1,260 @@
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+   
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-us-info {
+border-radius: 10px;
+    width: 45%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    background:linear-gradient(rgb(247, 235, 235),rgb(231, 219, 219),white,rgb(204, 204, 204)) ;
+
+  }
+  .contact-us-form {
+    background: linear-gradient(white,rgba(128, 0, 0, 0.865),gray,white);
+    width: 75%;
+    margin-bottom: 10px;
+    margin-left: 20px; 
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 20px;
+    border: 2px solid black; 
+    border-radius: 10px; 
+  }
+  
+  .contact-us-form label {
+    display: block; /* Place each label on a new line */
+    margin-bottom: 10px; /* Add some space between labels and input fields */
+    font-weight: bold;
+  }
+  
+  .contact-us-form input,
+  .contact-us-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Add a border to input fields */
+    border-radius: 5px; /* Add rounded corners to input fields */
+  }
+  
+  .msg {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Add a border to the message textarea */
+    border-radius: 5px; /* Add rounded corners to the message textarea */
+    resize: vertical; /* Allow vertical resizing of the textarea */
+  }
+  
+  .contact-us-form button {
+    background-color: black;
+    color: white;
+    
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer;
+  }
+  
+  .contact-us-form button:hover {
+    background-color: #333; /* Darken the background on hover */
+  }
+  
+ 
+.contact-us-info {
+  margin: 20px;
+  text-align: center;
+}
+
+/* Styling for the contact form section */
+.contact-us-form {
+  margin: 20px;
+  text-align: center;
+}
+
+/* Styling for the FontAwesome icons */
+.contact-us-info div {
+  margin-bottom: 10px;
+}
+
+/* Add additional styling as needed */
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  /* Adjust the max-width based on your design */
+  margin: 20px;
+}
+
+
+/* Styling for the grid container */
+.grid-container {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+.top-image img {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+
+/* Styling for the grid items */
+.grid-item img {
+  width: 100%;
+  
+  object-fit: cover;
+}
+
+/* Add this CSS to your existing styles */
+.centered-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 35px;
+}
+.j {
+  color: rgba(128, 0, 0, 0.895);
+  font-size: 50px;
+}
+/* Default styles for larger screens */
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us-info {
+  border-radius: 10px;
+  width: 45%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  background: linear-gradient(rgb(247, 235, 235), rgb(231, 219, 219), white, rgb(204, 204, 204));
+}
+
+.contact-us-form {
+  background: linear-gradient(white, rgba(128, 0, 0, 0.865), gray, white);
+  width: 75%;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.contact-us-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-us-form input,
+.contact-us-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.msg {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.contact-us-form button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-us-form button:hover {
+  background-color: #333;
+}
+
+.contact-us-info {
+  margin: 20px;
+  text-align: center;
+}
+
+/* Styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .contact-us-info {
+    width: 100%;
+  }
+
+  .contact-us-form {
+    width: 100%;
+  }
+
+  .contact-us-form button {
+    width: 100%;
+  }
+}
+
+/* Additional styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  .contact-us-form label {
+    font-size: 16px;
+  }
+
+  .contact-us-form input,
+  .contact-us-form textarea {
+    font-size: 14px;
+  }
+
+  .msg {
+    font-size: 14px;
+  }
+
+  .contact-us-form button {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us-info,
+  .contact-us-form {
+    width: 100%;
+  }
+
+  .contact-us-form label {
+    text-align: left;
+  }
+
+  .grid-container {
+    display: block;
+  }
+}
+
+
+
+
+

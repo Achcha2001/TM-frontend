@@ -1,0 +1,43 @@
+/* Footer styles */
+
+.footer {
+    background-color: maroon; /* Set the background color of the footer */
+    color: #fff; /* Set the text color to white */
+    padding: 20px; /* Add some padding to the footer content */
+  }
+  
+  .footer-content {
+    display: flex; /* Use flexbox to arrange the content horizontally */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Spread out the content evenly */
+  }
+  
+  .footer-logo {
+    display: flex; /* Use flexbox to align the logo and text horizontally */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .footer-logo-image {
+    height: 40px; /* Adjust the logo height as needed */
+    margin-right: 10px; /* Add some space between the logo and text */
+  }
+  
+  .footer-logo-text {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+  
+  .footer-social {
+    display: flex; /* Use flexbox to align the social icons horizontally */
+  }
+  
+  .social-icon {
+    width: 30px; /* Adjust the icon width as needed */
+    height: 30px; /* Adjust the icon height as needed */
+    margin-left: 10px; /* Add some space between the icons */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  .social-icon:hover {
+    opacity: 0.8; /* Reduce the opacity of the icons on hover */
+  }
+  
